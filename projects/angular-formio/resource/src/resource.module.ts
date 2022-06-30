@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { FormioModule } from '@formio/angular';
-import { FormioAlerts } from '@formio/angular';
-import { FormioGrid } from '@formio/angular/grid';
+import { FormioModule } from '@tadkarlotus/formio';
+import { FormioAlerts } from '@tadkarlotus/formio';
+import { FormioGrid } from '@tadkarlotus/formio/grid';
 import { FormioResourceComponent } from './resource.component';
 import { FormioResourceViewComponent } from './view/view.component';
 import { FormioResourceEditComponent } from './edit/edit.component';
@@ -12,7 +12,7 @@ import { FormioResourceCreateComponent } from './create/create.component';
 import { FormioResourceIndexComponent } from './index/index.component';
 import { FormioResourceRouteConfig } from './resource.config';
 import { FormioResourceRoutes } from './resource.routes';
-import { extendRouter } from '@formio/angular';
+import { extendRouter } from '@tadkarlotus/formio';
 
 @NgModule({
   imports: [
