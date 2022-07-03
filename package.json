@@ -1,5 +1,5 @@
 {
-  "name": "@formio/angular",
+  "name": "@tadkarlotus/formio",
   "version": "5.2.2",
   "scripts": {
     "ng": "ng",

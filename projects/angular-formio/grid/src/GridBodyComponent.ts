@@ -2,7 +2,7 @@ import { Input, Output, EventEmitter, ViewChild, TemplateRef, Component } from '
 import { each, clone } from 'lodash';
 import { GridHeaderComponent } from './GridHeaderComponent';
 import { GridService } from './grid.service';
-import {FormioPromiseService} from '@formio/angular';
+import {FormioPromiseService} from '@tadkarlotus/formio';
 
 @Component({
   template: ''
@@ -57,7 +57,7 @@ export class GridBodyComponent {
       this.skip = 0;
       this.loading = false;
       this.service.setRows(this.rows);
-      
+
       return this.rows;
     }
 

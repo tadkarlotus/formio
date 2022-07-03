@@ -1,4 +1,4 @@
-import {ComponentInstance} from '@formio/angular';
+import {ComponentInstance} from '@tadkarlotus/formio';
 
 export interface GridHeader {
   component?: ComponentInstance;

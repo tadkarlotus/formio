@@ -1,6 +1,6 @@
 import { EventEmitter, Injectable, Inject } from '@angular/core';
 import { FormioAuthConfig } from './auth.config';
-import { FormioAppConfig } from '@formio/angular';
+import { FormioAppConfig } from '@tadkarlotus/formio';
 import { get, each } from 'lodash';
 import { Formio } from 'formiojs';
 
